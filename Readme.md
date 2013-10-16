@@ -1,8 +1,7 @@
 
 # jquery-filter
 
-  CSS engine to filter your dom
-	
+  CSS engine to filter your dom inspired by this [article](http://redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html)
 
 ## Usage
 
