@@ -23,7 +23,7 @@ Then create your filter as following:
 	<div class="filter-item" data-filter="amylethbridge">Amy is in Lethbridge</div>
 </div> 
 ``` 
- > don't forget to add the class `filter-item' on any searchable element and to add the tags into a the `data-filter` attribute
+ > don't forget to add the class filter-item on any searchable element and to add the tags into a the data-filter attribute
 
 and intialize your plugin:
 
