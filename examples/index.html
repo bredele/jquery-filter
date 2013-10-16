@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Filter</title>
+</head>
+<body>
+	<input class="input" type="text" placeholder="filter">
+	<ul class="filter">
+		<li class="filter-item" data-filter="olivierbredelecalgary">
+			<span>Olivier</span> is in <span>Calgary</span> and its github is <span>Bredele</span>
+		</li>
+		<li class="filter-item" data-filter="olivierstrasbourg">
+			<span>Olivier</span> is in <span>Strasbourg</span>
+		</li>
+		<li class="filter-item" data-filter="amy">
+			<span>Amy</span> 
+		</li>
+	</ul>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="../jquery.filter.js"></script>
+	<script>
+	  var filter = $('.filter').filter();
+
+	  $('.input').on('input', function(){
+	  	$('.filter').trigger('filter', $('.input').val());
+	  });
+	</script>
+</body>
+</html>
