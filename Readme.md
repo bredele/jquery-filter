@@ -70,7 +70,7 @@ var filter = $('.filter').filter({
 
 You can install a component version with [component(1)](http://component.io):
 
-    $ component install bredele/searching
+    $ component install bredele/search
 
 ## License
 
