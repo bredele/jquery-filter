@@ -1,4 +1,3 @@
-
 # jquery-filter
 
   CSS engine to filter your dom inspired by this [article](http://redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html)
@@ -71,7 +70,7 @@ var filter = $('.filter').filter({
 
 You can install a component version with [component(1)](http://component.io):
 
-  $ component install bredele/stack
+    $ component install bredele/searching
 
 ## License
 
